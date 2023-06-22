@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Bitter&family=Raleway:wght@300&display=swap');
+
+.all-movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.movie-card:hover .movie-image {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.movie-image {
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 4%;
+  opacity: 80%;
+  transition: transform 0.45s;
+}
+
+.movie-name {
+  font-family: Open Sans,Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  max-width: 220px;
+  font-weight: 900;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  color: #F2E7F0;
+}
+
+.buy-ticket {
+  border-radius: 80px;
+  padding: 5px 8px;
+  background-color: #F2E7F0;
+  border: 3px solid #5649F7;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  max-width: 150px;
+  margin: auto;
+ 
+}
+
+.buy-ticket:hover {
+  background-color: #5649F7;
+  border: 3px solid #F2E7F0;
+  color: #F2E7F0;
+}
