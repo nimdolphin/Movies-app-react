@@ -1,0 +1,175 @@
+.movies {
+  list-style-type: none;
+  background-image: linear-gradient(#231747, #3E1C4E, #17021A);
+  min-height: 100%;
+
+  .overflow {
+    overflow: hidden;
+    position: relative;
+
+    .banner {
+      width:100%;
+      object-fit: cover;
+      height: 600px;
+      opacity: 0.8
+    }
+  }
+
+  .linear {
+    position: absolute;
+    top: 0px;
+    display: block;
+    width:100%;
+    opacity: 0.9;
+    height: 600px;
+  }
+
+  .poster{
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 6%;
+    position: absolute;
+    right: 170px;
+    top: 500px;
+  }
+
+  .title {
+    font-family: Open Sans,Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    max-width: 800px;
+    color: #F2E7F0;
+    position: absolute;
+    top: 350px;
+    left: 75px;
+  }
+
+  .ageLimit{
+    color: #F2E7F0;
+    font-family: Open Sans,Helvetica, Arial, sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 500px;
+    left: 75px;
+  }
+
+  .title2 {
+    color: #F2E7F0;
+    margin-left: 95px;
+    padding-top: 20px;
+    font-family: Open Sans,Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .description {
+    font-family: Open Sans,Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    padding: 45px;
+    padding-top: 20px;
+    padding-right: 550px;
+    margin-left: 55px;
+    color: #F2E7F0;
+    align-items: left;
+  }
+
+  .line {
+    border-bottom: 1px solid #F2E7F0;
+    margin-left: 95px;
+    margin-right: 550px;
+  }
+
+  .youtube {
+    border-radius: 80px;
+    padding: 15px 18px;
+    background-color: #F2E7F0;
+    border: 3px solid #5649F7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    max-width: 250px;
+    margin: 85px;
+
+    a {
+    text-decoration: none;
+    }
+
+    a:hover {
+      color: #5649F7;
+    }
+  }
+
+  .date-and-age {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 95px;
+
+    .date-card {
+      display: flex;
+      margin-right: 100px;
+    
+    .date-icon {
+      width: 30px;
+      max-height: 30px;
+      padding-right: 20px;
+    }
+
+    .startDate {
+      color: #F2E7F0;
+      font-family: Open Sans,Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+    }
+
+    .endDate {
+      color: #F2E7F0;
+      font-family: Open Sans,Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      padding: 3px;
+      font-weight: 600;
+    }
+    }
+
+    .age-card {
+      display: flex;
+
+    .user-icon {
+      width: 30px;
+      max-height: 30px;
+      padding-right: 20px;
+    }
+
+    .ageUser {
+      color: #F2E7F0;
+      font-family: Open Sans,Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+    }
+    }
+  }
+
+  .genres-container {
+    padding-left: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+    .dotted-line {
+      border-bottom: 1px dashed #F2E7F0;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 90px;
+      opacity: 0.4;
+    }
+
+    .genres {
+      color: #F2E7F0;
+      font-size: 20px;
+      font-family: Open Sans,Helvetica, Arial, sans-serif;
+      font-weight: 600;
+    }
+  }
+}
