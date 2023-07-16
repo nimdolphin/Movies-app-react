@@ -1,0 +1,31 @@
+.container-form {
+  display: flex;
+  border: 2px solid black;
+  max-width: 90vh;
+  margin: auto;
+  border-radius: 15px;
+  
+}
+
+.img-form {
+  max-width: 40vh;
+}
+
+.btn {
+  border-radius: 80px;
+  padding: 5px 8px;
+  background-color: #F2E7F0;
+  border: 3px solid #5649F7;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  max-width: 150px;
+  margin: auto;
+ 
+}
+
+.btn:hover {
+  background-color: #FFD926;
+  border: 3px solid #F2E7F0;
+  color: #5649F7;
+}
